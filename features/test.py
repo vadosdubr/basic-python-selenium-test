@@ -10,4 +10,7 @@ search_button = driver.find_element_by_xpath("//*[@id='search-form']/fieldset/bu
 search_button.click()
 
 assert "test text" in driver.title
+
+
+
 driver.quit()
